@@ -9,4 +9,11 @@ export const AppState = reactive({
 
   /** @type {import('./models/Blog.js').Blog} */
   blogs: null,
+  /** @type {import('./models/Blog.js').Blog || null} */
+  activeBlog: null,
+
+  activeProfile: null,
+
+  tags: null,
+  activeTag: ''
 })
